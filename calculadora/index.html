@@ -1,0 +1,37 @@
+<!-- REQUISITOS
+
+    1. Calculadora tendo 4 operações aritméticas básicas;
+    2. Se a soma for => 100: mostrar foto do frizza
+    3. Se a multiplicação for => 1000, mostrar foto do matheuzin
+    4. Se a subtração < 20: mostrar foto da vivian
+    5. Se a divisão = 4: mostrar foto do goku
+
+    RESTRIÇÕES
+
+    1. HTML deve estar separado do JS e das CSS
+    2. As divisões serão feitas apenas com números reais inteiros
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Picuda</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculadora copy.js"></script>
+</head>
+<body>
+    <div class="box">
+        <h1>CALCULADORA</h1>
+        Digite dois números para realizar operações aritméticas<br><br> 
+        <input id="ipt_num1" type="text" placeholder="Insira o primeiro número"> <input id="ipt_num2" type="text" placeholder="Insira o segundo número">
+        <button onclick="principal()">Calcular</button>
+        <div id="resultado"></div><br>
+        <img style="height: 100px" id="img_frizza" src="" alt="">
+        <img style="height: 100px" id="img_vivian" src="" alt="" >
+        <img style="height: 100px" id="img_matheuzin" src="" alt="">
+        <img style="height: 100px" id="img_goku" src="" alt="">
+    </div>
+</body>
+</html>

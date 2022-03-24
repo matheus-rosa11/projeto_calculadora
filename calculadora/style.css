@@ -1,0 +1,16 @@
+body {
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-image: url(sptech.jpg);
+}
+
+.box {
+    position: relative;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: black 0.1cm 0.1cm 0.5cm;
+    height: 450px;
+    margin: 5%;
+    padding: 5px;
+}
